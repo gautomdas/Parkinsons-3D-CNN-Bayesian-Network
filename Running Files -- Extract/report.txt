@@ -1,0 +1,20 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'keras_3D_CNN_slow_train_tfp.py'
+ outputting to 'next.py'
+--------------------------------------------------------------------------------
+
+166:29: INFO: Renamed 'tf.nn.softmax_cross_entropy_with_logits_v2' to 'tf.nn.softmax_cross_entropy_with_logits'
+170:19: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+176:40: INFO: Added keywords to args of function 'tf.argmax'
+176:62: INFO: Added keywords to args of function 'tf.argmax'
+--------------------------------------------------------------------------------
+
